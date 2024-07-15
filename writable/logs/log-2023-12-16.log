@@ -1,0 +1,1357 @@
+CRITICAL - 2023-12-16 12:47:57 --> Class "App\Models\TransaksiModel" not found
+in APPPATH\Controllers\Transaksi.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:48:54 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:49:27 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:49:28 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:49:28 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:49:28 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:50:13 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:50:14 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:50:14 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:50:14 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:50:14 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:51:17 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:51:17 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:51:18 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:51:18 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:51:18 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:51:18 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:51:18 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:51:19 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:51:58 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:53:59 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:53:59 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:53:59 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:54:00 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:54:00 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:56:37 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:56:38 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:56:38 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:56:38 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:56:38 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:56:38 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:56:56 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:56:57 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:56:57 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:56:57 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:56:57 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:10 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:10 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:10 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:10 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:26 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:27 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:27 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:27 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:57 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:57 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:58 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:58 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:58 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:58 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:59 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:59 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:59 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:59 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:57:59 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:58:00 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:58:00 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:58:00 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:58:00 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:58:00 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:58:45 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:58:45 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:58:46 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:58:46 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:58:46 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:59:13 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:59:14 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:59:14 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:59:14 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:59:14 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:59:14 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:59:50 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:59:50 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:59:50 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:59:50 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 12:59:50 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:03 --> Core.File
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:04 --> Core.File
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:04 --> Core.File
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:04 --> Core.File
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:04 --> Core.File
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:04 --> Core.File
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:05 --> Core.File
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:05 --> Core.File
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:05 --> Core.File
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:05 --> Core.File
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:05 --> Core.File
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:06 --> Core.File
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:06 --> Core.File
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:18 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:18 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:19 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:19 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:00:19 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:01:21 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:01:21 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:01:21 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:01:24 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:02:54 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:02:55 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:02:55 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:02:55 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:02:55 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:02:56 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:04:08 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:04:08 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:04:08 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:04:08 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:04:08 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:04:09 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:04:53 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:04:53 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:04:53 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:04:54 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:04:54 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:04:54 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:04:54 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:04:54 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:06:53 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:06:53 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:06:53 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:06:53 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:06:54 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:07:46 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:07:47 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:07:47 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:07:47 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:07:47 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:07:47 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:07:48 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:07:48 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:07:50 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:07:50 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:07:51 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:07:51 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')
+CRITICAL - 2023-12-16 13:07:51 --> Invalid file: "transaksi/data_transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/data_transaksi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/data_transaksi', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(29): view('transaksi/data_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\mulia_coba\\public\\index.php')

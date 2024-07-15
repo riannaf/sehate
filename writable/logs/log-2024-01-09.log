@@ -1,0 +1,78 @@
+CRITICAL - 2024-01-09 21:50:10 --> Call to a member function where() on null
+in APPPATH\Controllers\Sewa.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\KMPS\\fp_webprog\\public\\index.php')
+CRITICAL - 2024-01-09 21:50:35 --> Call to a member function where() on null
+in APPPATH\Controllers\Sewa.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\KMPS\\fp_webprog\\public\\index.php')
+CRITICAL - 2024-01-09 21:54:54 --> Call to a member function where() on null
+in APPPATH\Controllers\Sewa.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\KMPS\\fp_webprog\\public\\index.php')
+CRITICAL - 2024-01-09 22:44:35 --> Undefined array key "harga_satuan"
+in APPPATH\Controllers\Sewa.php on line 91.
+ 1 APPPATH\Controllers\Sewa.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_satuan"', 'E:\\KMPS\\fp_webprog\\app\\Controllers\\Sewa.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\KMPS\\fp_webprog\\public\\index.php')
+CRITICAL - 2024-01-09 22:46:17 --> Call to a member function where() on null
+in APPPATH\Controllers\Sewa.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\KMPS\\fp_webprog\\public\\index.php')
+CRITICAL - 2024-01-09 22:50:49 --> Call to a member function where() on null
+in APPPATH\Controllers\Sewa.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\KMPS\\fp_webprog\\public\\index.php')
+CRITICAL - 2024-01-09 22:50:51 --> Call to a member function where() on null
+in APPPATH\Controllers\Sewa.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\KMPS\\fp_webprog\\public\\index.php')
+CRITICAL - 2024-01-09 22:50:52 --> Call to a member function where() on null
+in APPPATH\Controllers\Sewa.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\KMPS\\fp_webprog\\public\\index.php')
+CRITICAL - 2024-01-09 22:50:53 --> Call to a member function where() on null
+in APPPATH\Controllers\Sewa.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\KMPS\\fp_webprog\\public\\index.php')
+CRITICAL - 2024-01-09 22:50:53 --> Call to a member function where() on null
+in APPPATH\Controllers\Sewa.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\KMPS\\fp_webprog\\public\\index.php')
+CRITICAL - 2024-01-09 22:50:54 --> Call to a member function where() on null
+in APPPATH\Controllers\Sewa.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\KMPS\\fp_webprog\\public\\index.php')

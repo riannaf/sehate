@@ -1,0 +1,541 @@
+ERROR - 2024-01-01 03:38:06 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\fp\ke6\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'sewa_ht', 3306, '', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\fp\ke6\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\fp\ke6\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\app\Controllers\Barang.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Barang->index()
+#7 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\fp\ke6\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\fp\ke6\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\fp\ke6\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\fp\ke6\app\Controllers\Barang.php(26): CodeIgniter\Model->__call('get', Array)
+#5 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Barang->index()
+#6 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#10 {main}
+CRITICAL - 2024-01-01 03:38:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `barang`
+WHERE `kode_barang` LIKE :kode_barang: ESCAPE \'!\'', [...], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Barang.php(26): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 03:42:55 --> The placeholder field cannot use placeholder: id_sewa
+in SYSTEMPATH\Validation\Validation.php on line 777.
+ 1 SYSTEMPATH\Validation\Validation.php(156): CodeIgniter\Validation\Validation->fillPlaceholders([...], [...])
+ 2 SYSTEMPATH\BaseModel.php(1495): CodeIgniter\Validation\Validation->run([...], null, null)
+ 3 SYSTEMPATH\BaseModel.php(751): CodeIgniter\BaseModel->validate([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Sewa.php(86): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 03:44:40 --> The placeholder field cannot use placeholder: id_sewa
+in SYSTEMPATH\Validation\Validation.php on line 777.
+ 1 SYSTEMPATH\Validation\Validation.php(156): CodeIgniter\Validation\Validation->fillPlaceholders([...], [...])
+ 2 SYSTEMPATH\BaseModel.php(1495): CodeIgniter\Validation\Validation->run([...], null, null)
+ 3 SYSTEMPATH\BaseModel.php(751): CodeIgniter\BaseModel->validate([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Sewa.php(86): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 03:48:20 --> The placeholder field cannot use placeholder: id_sewa
+in SYSTEMPATH\Validation\Validation.php on line 777.
+ 1 SYSTEMPATH\Validation\Validation.php(156): CodeIgniter\Validation\Validation->fillPlaceholders([...], [...])
+ 2 SYSTEMPATH\BaseModel.php(1495): CodeIgniter\Validation\Validation->run([...], null, null)
+ 3 SYSTEMPATH\BaseModel.php(751): CodeIgniter\BaseModel->validate([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Sewa.php(86): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 03:49:51 --> The placeholder field cannot use placeholder: id_sewa
+in SYSTEMPATH\Validation\Validation.php on line 777.
+ 1 SYSTEMPATH\Validation\Validation.php(156): CodeIgniter\Validation\Validation->fillPlaceholders([...], [...])
+ 2 SYSTEMPATH\BaseModel.php(1495): CodeIgniter\Validation\Validation->run([...], null, null)
+ 3 SYSTEMPATH\BaseModel.php(919): CodeIgniter\BaseModel->validate([...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Sewa.php(88): CodeIgniter\Model->update('2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2024-01-01 04:51:28 --> mysqli_sql_exception: Unknown column 'sewa.id_barang' in 'on clause' in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\fp\ke6\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\app\Controllers\Sewa.php(34): CodeIgniter\Model->__call('get', Array)
+#6 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->form()
+#7 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#8 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#11 {main}
+CRITICAL - 2024-01-01 04:51:28 --> Unknown column 'sewa.id_barang' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sewa`
+LEFT JOIN `barang` ON `barang`.`nama_barang` = `sewa`.`id_barang`', [], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Sewa.php(34): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 04:56:57 --> Call to undefined method App\Controllers\Sewa::select()
+in APPPATH\Controllers\Sewa.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 04:58:14 --> syntax error, unexpected token "."
+in APPPATH\Controllers\Sewa.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\fp\\ke6\\app\\Controllers\\Sewa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Sewa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Sewa')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Sewa', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 04:58:19 --> syntax error, unexpected token "."
+in APPPATH\Controllers\Sewa.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\fp\\ke6\\app\\Controllers\\Sewa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Sewa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Sewa')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Sewa', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2024-01-01 05:00:05 --> mysqli_sql_exception: Unknown column 'penyewa.nama_penyewa' in 'field list' in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `penyewa...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penyewa...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penyewa...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa...', Array, false)
+#4 C:\fp\ke6\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\fp\ke6\app\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->form()
+#8 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#9 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#12 {main}
+CRITICAL - 2024-01-01 05:00:05 --> Unknown column 'penyewa.nama_penyewa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa`.`nama_penyewa`, `barang`.`nama_barang`, `sewa`.*
+FROM `sewa`
+ORDER BY `sewa`.`id_sewa`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2024-01-01 05:01:15 --> mysqli_sql_exception: Unknown column 'penyewa.nama_penyewa' in 'field list' in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `penyewa...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penyewa...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penyewa...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa...', Array, false)
+#4 C:\fp\ke6\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\fp\ke6\app\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->form()
+#8 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#9 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#12 {main}
+CRITICAL - 2024-01-01 05:01:15 --> Unknown column 'penyewa.nama_penyewa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa`.`nama_penyewa`, `barang`.`nama_barang`, `sewa`.*
+FROM `sewa`
+ORDER BY `sewa`.`id_sewa`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2024-01-01 05:01:15 --> mysqli_sql_exception: Unknown column 'penyewa.nama_penyewa' in 'field list' in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `penyewa...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penyewa...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penyewa...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa...', Array, false)
+#4 C:\fp\ke6\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\fp\ke6\app\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->form()
+#8 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#9 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#12 {main}
+CRITICAL - 2024-01-01 05:01:15 --> Unknown column 'penyewa.nama_penyewa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa`.`nama_penyewa`, `barang`.`nama_barang`, `sewa`.*
+FROM `sewa`
+ORDER BY `sewa`.`id_sewa`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2024-01-01 05:01:15 --> mysqli_sql_exception: Unknown column 'penyewa.nama_penyewa' in 'field list' in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `penyewa...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penyewa...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penyewa...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa...', Array, false)
+#4 C:\fp\ke6\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\fp\ke6\app\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->form()
+#8 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#9 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#12 {main}
+CRITICAL - 2024-01-01 05:01:15 --> Unknown column 'penyewa.nama_penyewa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa`.`nama_penyewa`, `barang`.`nama_barang`, `sewa`.*
+FROM `sewa`
+ORDER BY `sewa`.`id_sewa`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2024-01-01 05:01:16 --> mysqli_sql_exception: Unknown column 'penyewa.nama_penyewa' in 'field list' in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `penyewa...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penyewa...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penyewa...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa...', Array, false)
+#4 C:\fp\ke6\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\fp\ke6\app\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->form()
+#8 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#9 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#12 {main}
+CRITICAL - 2024-01-01 05:01:16 --> Unknown column 'penyewa.nama_penyewa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa`.`nama_penyewa`, `barang`.`nama_barang`, `sewa`.*
+FROM `sewa`
+ORDER BY `sewa`.`id_sewa`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2024-01-01 05:01:16 --> mysqli_sql_exception: Unknown column 'penyewa.nama_penyewa' in 'field list' in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `penyewa...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penyewa...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penyewa...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa...', Array, false)
+#4 C:\fp\ke6\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\fp\ke6\app\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->form()
+#8 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#9 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#12 {main}
+CRITICAL - 2024-01-01 05:01:16 --> Unknown column 'penyewa.nama_penyewa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa`.`nama_penyewa`, `barang`.`nama_barang`, `sewa`.*
+FROM `sewa`
+ORDER BY `sewa`.`id_sewa`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2024-01-01 05:01:16 --> mysqli_sql_exception: Unknown column 'penyewa.nama_penyewa' in 'field list' in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `penyewa...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penyewa...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penyewa...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa...', Array, false)
+#4 C:\fp\ke6\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\fp\ke6\app\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->form()
+#8 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#9 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#12 {main}
+CRITICAL - 2024-01-01 05:01:16 --> Unknown column 'penyewa.nama_penyewa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa`.`nama_penyewa`, `barang`.`nama_barang`, `sewa`.*
+FROM `sewa`
+ORDER BY `sewa`.`id_sewa`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2024-01-01 05:01:16 --> mysqli_sql_exception: Unknown column 'penyewa.nama_penyewa' in 'field list' in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `penyewa...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penyewa...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penyewa...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa...', Array, false)
+#4 C:\fp\ke6\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\fp\ke6\app\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->form()
+#8 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#9 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#12 {main}
+CRITICAL - 2024-01-01 05:01:16 --> Unknown column 'penyewa.nama_penyewa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa`.`nama_penyewa`, `barang`.`nama_barang`, `sewa`.*
+FROM `sewa`
+ORDER BY `sewa`.`id_sewa`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2024-01-01 05:01:21 --> mysqli_sql_exception: Unknown column 'penyewa.nama_penyewa' in 'field list' in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `penyewa...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penyewa...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penyewa...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa...', Array, false)
+#4 C:\fp\ke6\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\fp\ke6\app\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->form()
+#8 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#9 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#12 {main}
+CRITICAL - 2024-01-01 05:01:21 --> Unknown column 'penyewa.nama_penyewa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `penyewa`.`nama_penyewa`, `barang`.`nama_barang`, `sewa`.*
+FROM `sewa`
+ORDER BY `sewa`.`id_sewa`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Sewa.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 05:03:38 --> Call to a member function select() on null
+in APPPATH\Controllers\Sewa.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 05:11:41 --> Call to a member function select() on null
+in APPPATH\Controllers\Sewa.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 05:12:29 --> Undefined property: mysqli::$nama_penyewa
+in APPPATH\Views\sewa\form_sewa.php on line 20.
+ 1 APPPATH\Views\sewa\form_sewa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama_penyewa', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(63): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 05:12:30 --> Undefined property: mysqli::$nama_penyewa
+in APPPATH\Views\sewa\form_sewa.php on line 20.
+ 1 APPPATH\Views\sewa\form_sewa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama_penyewa', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(63): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 05:12:30 --> Undefined property: mysqli::$nama_penyewa
+in APPPATH\Views\sewa\form_sewa.php on line 20.
+ 1 APPPATH\Views\sewa\form_sewa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama_penyewa', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(63): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 05:12:31 --> Undefined property: mysqli::$nama_penyewa
+in APPPATH\Views\sewa\form_sewa.php on line 20.
+ 1 APPPATH\Views\sewa\form_sewa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama_penyewa', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(63): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 05:12:31 --> Undefined property: mysqli::$nama_penyewa
+in APPPATH\Views\sewa\form_sewa.php on line 20.
+ 1 APPPATH\Views\sewa\form_sewa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama_penyewa', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(63): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 05:12:31 --> Undefined property: mysqli::$nama_penyewa
+in APPPATH\Views\sewa\form_sewa.php on line 20.
+ 1 APPPATH\Views\sewa\form_sewa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama_penyewa', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(63): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 05:15:13 --> Undefined property: mysqli::$nama_penyewa
+in APPPATH\Views\sewa\form_sewa.php on line 20.
+ 1 APPPATH\Views\sewa\form_sewa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama_penyewa', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(61): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 05:15:13 --> Undefined property: mysqli::$nama_penyewa
+in APPPATH\Views\sewa\form_sewa.php on line 20.
+ 1 APPPATH\Views\sewa\form_sewa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama_penyewa', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(61): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 05:15:14 --> Undefined property: mysqli::$nama_penyewa
+in APPPATH\Views\sewa\form_sewa.php on line 20.
+ 1 APPPATH\Views\sewa\form_sewa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama_penyewa', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(61): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 05:15:14 --> Undefined property: mysqli::$nama_penyewa
+in APPPATH\Views\sewa\form_sewa.php on line 20.
+ 1 APPPATH\Views\sewa\form_sewa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama_penyewa', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(61): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-01 05:15:14 --> Undefined property: mysqli::$nama_penyewa
+in APPPATH\Views\sewa\form_sewa.php on line 20.
+ 1 APPPATH\Views\sewa\form_sewa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama_penyewa', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(61): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')

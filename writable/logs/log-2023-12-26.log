@@ -1,0 +1,765 @@
+CRITICAL - 2023-12-26 03:39:58 --> Undefined property: stdClass::$stok
+in APPPATH\Views\barang\data_barang.php on line 37.
+ 1 APPPATH\Views\barang\data_barang.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$stok', 'C:\\fp\\ubahsii\\app\\Views\\barang\\data_barang.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ubahsii\\app\\Views\\barang\\data_barang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_barang', [], true)
+ 5 APPPATH\Controllers\Barang.php(32): view('barang/data_barang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ubahsii\\public\\index.php')
+ERROR - 2023-12-26 03:41:43 --> mysqli_sql_exception: Unknown column 'kode_customer' in 'where clause' in C:\fp\ubahsii\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ubahsii\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\fp\ubahsii\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\fp\ubahsii\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\fp\ubahsii\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\fp\ubahsii\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ubahsii\app\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\fp\ubahsii\system\CodeIgniter.php(942): App\Controllers\Customer->index()
+#7 C:\fp\ubahsii\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#8 C:\fp\ubahsii\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\fp\ubahsii\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\fp\ubahsii\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ubahsii\\p...')
+#11 {main}
+CRITICAL - 2023-12-26 03:41:43 --> Unknown column 'kode_customer' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer`
+WHERE `kode_customer` LIKE :kode_customer: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ubahsii\\public\\index.php')
+ERROR - 2023-12-26 03:42:17 --> mysqli_sql_exception: Unknown column 'kode_customer' in 'where clause' in C:\fp\ubahsii\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ubahsii\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\fp\ubahsii\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\fp\ubahsii\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\fp\ubahsii\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\fp\ubahsii\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ubahsii\app\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\fp\ubahsii\system\CodeIgniter.php(942): App\Controllers\Customer->index()
+#7 C:\fp\ubahsii\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#8 C:\fp\ubahsii\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\fp\ubahsii\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\fp\ubahsii\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ubahsii\\p...')
+#11 {main}
+CRITICAL - 2023-12-26 03:42:17 --> Unknown column 'kode_customer' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer`
+WHERE `kode_customer` LIKE :kode_customer: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ubahsii\\public\\index.php')
+ERROR - 2023-12-26 03:42:17 --> mysqli_sql_exception: Unknown column 'kode_customer' in 'where clause' in C:\fp\ubahsii\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ubahsii\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\fp\ubahsii\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\fp\ubahsii\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\fp\ubahsii\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\fp\ubahsii\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ubahsii\app\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\fp\ubahsii\system\CodeIgniter.php(942): App\Controllers\Customer->index()
+#7 C:\fp\ubahsii\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#8 C:\fp\ubahsii\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\fp\ubahsii\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\fp\ubahsii\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ubahsii\\p...')
+#11 {main}
+CRITICAL - 2023-12-26 03:42:17 --> Unknown column 'kode_customer' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer`
+WHERE `kode_customer` LIKE :kode_customer: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ubahsii\\public\\index.php')
+CRITICAL - 2023-12-26 03:45:33 --> Undefined variable $default_id
+in APPPATH\Views\sewa\form_sewa.php on line 13.
+ 1 APPPATH\Views\sewa\form_sewa.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default_id', 'C:\\fp\\ubahsii\\app\\Views\\sewa\\form_sewa.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ubahsii\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(55): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ubahsii\\public\\index.php')
+CRITICAL - 2023-12-26 04:18:59 --> Undefined variable $default_id
+in APPPATH\Views\sewa\form_sewa.php on line 13.
+ 1 APPPATH\Views\sewa\form_sewa.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default_id', 'C:\\fp\\ubahsii\\app\\Views\\sewa\\form_sewa.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ubahsii\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(55): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ubahsii\\public\\index.php')
+ERROR - 2023-12-26 05:05:41 --> mysqli_sql_exception: Table 'sewa_ht.customer' doesn't exist in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\fp\ke6\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\app\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Customer->index()
+#7 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#8 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#11 {main}
+CRITICAL - 2023-12-26 05:05:41 --> Table 'sewa_ht.customer' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer`
+WHERE `kode_customer` LIKE :kode_customer: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 07:42:53 --> mysqli_sql_exception: Table 'sewa_ht.customer' doesn't exist in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\fp\ke6\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\app\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Customer->index()
+#7 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#8 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#11 {main}
+CRITICAL - 2023-12-26 07:42:53 --> Table 'sewa_ht.customer' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer`
+WHERE `kode_customer` LIKE :kode_customer: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 07:43:35 --> mysqli_sql_exception: Unknown column 'stok' in 'field list' in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\fp\ke6\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\fp\ke6\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\fp\ke6\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\fp\ke6\app\Controllers\Barang.php(83): CodeIgniter\Model->insert(Array)
+#8 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+#9 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#13 {main}
+CRITICAL - 2023-12-26 07:43:35 --> Unknown column 'stok' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`kode_barang`, `nama_barang`, `spesifikasi`, `stok`, `harga`) VALUES (:kode_barang:, :nama_barang:, :spesifikasi:, :stok:, :harga:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Barang.php(83): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 07:45:12 --> mysqli_sql_exception: Unknown column 'stok' in 'field list' in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\fp\ke6\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\fp\ke6\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\fp\ke6\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\fp\ke6\app\Controllers\Barang.php(82): CodeIgniter\Model->insert(Array)
+#8 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+#9 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#13 {main}
+CRITICAL - 2023-12-26 07:45:12 --> Unknown column 'stok' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`kode_barang`, `nama_barang`, `spesifikasi`, `stok`, `harga`) VALUES (:kode_barang:, :nama_barang:, :spesifikasi:, :stok:, :harga:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Barang.php(82): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 07:45:39 --> mysqli_sql_exception: Unknown column 'harga' in 'field list' in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\fp\ke6\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\fp\ke6\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\fp\ke6\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\fp\ke6\app\Controllers\Barang.php(82): CodeIgniter\Model->insert(Array)
+#8 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+#9 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#13 {main}
+CRITICAL - 2023-12-26 07:45:39 --> Unknown column 'harga' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`kode_barang`, `nama_barang`, `spesifikasi`, `harga`) VALUES (:kode_barang:, :nama_barang:, :spesifikasi:, :harga:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Barang.php(82): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 07:46:26 --> Undefined variable $default_stok
+in APPPATH\Views\barang\form_barang.php on line 35.
+ 1 APPPATH\Views\barang\form_barang.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default_stok', 'C:\\fp\\ke6\\app\\Views\\barang\\form_barang.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\barang\\form_barang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/form_barang', [], true)
+ 5 APPPATH\Controllers\Barang.php(51): view('barang/form_barang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 07:48:34 --> Undefined variable $default_stok
+in APPPATH\Views\barang\form_barang.php on line 35.
+ 1 APPPATH\Views\barang\form_barang.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default_stok', 'C:\\fp\\ke6\\app\\Views\\barang\\form_barang.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\barang\\form_barang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/form_barang', [], true)
+ 5 APPPATH\Controllers\Barang.php(51): view('barang/form_barang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 07:49:09 --> mysqli_sql_exception: Column 'jumlah_barang' cannot be null in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\fp\ke6\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\fp\ke6\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\fp\ke6\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\fp\ke6\app\Controllers\Barang.php(82): CodeIgniter\Model->insert(Array)
+#8 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+#9 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#13 {main}
+CRITICAL - 2023-12-26 07:49:09 --> Column 'jumlah_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`kode_barang`, `nama_barang`, `spesifikasi`, `jumlah_barang`, `harga_sewa`) VALUES (:kode_barang:, :nama_barang:, :spesifikasi:, :jumlah_barang:, :harga_sewa:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Barang.php(82): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 07:50:10 --> mysqli_sql_exception: Column 'jumlah_barang' cannot be null in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\fp\ke6\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\fp\ke6\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\fp\ke6\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\fp\ke6\app\Controllers\Barang.php(82): CodeIgniter\Model->insert(Array)
+#8 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+#9 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#13 {main}
+CRITICAL - 2023-12-26 07:50:10 --> Column 'jumlah_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`kode_barang`, `nama_barang`, `spesifikasi`, `jumlah_barang`, `harga_sewa`) VALUES (:kode_barang:, :nama_barang:, :spesifikasi:, :jumlah_barang:, :harga_sewa:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Barang.php(82): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 07:50:25 --> mysqli_sql_exception: Column 'harga_sewa' cannot be null in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\fp\ke6\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\fp\ke6\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\fp\ke6\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\fp\ke6\app\Controllers\Barang.php(82): CodeIgniter\Model->insert(Array)
+#8 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+#9 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#13 {main}
+CRITICAL - 2023-12-26 07:50:25 --> Column 'harga_sewa' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`kode_barang`, `nama_barang`, `spesifikasi`, `jumlah_barang`, `harga_sewa`) VALUES (:kode_barang:, :nama_barang:, :spesifikasi:, :jumlah_barang:, :harga_sewa:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Barang.php(82): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 07:51:14 --> Undefined array key "stok"
+in APPPATH\Controllers\Barang.php on line 120.
+ 1 APPPATH\Controllers\Barang.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stok"', 'C:\\fp\\ke6\\app\\Controllers\\Barang.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 07:52:43 --> Undefined variable $default_jumlah
+in APPPATH\Views\barang\form_barang.php on line 35.
+ 1 APPPATH\Views\barang\form_barang.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default_jumlah', 'C:\\fp\\ke6\\app\\Views\\barang\\form_barang.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\barang\\form_barang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/form_barang', [], true)
+ 5 APPPATH\Controllers\Barang.php(131): view('barang/form_barang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 07:53:01 --> Undefined variable $default_jumlah
+in APPPATH\Views\barang\form_barang.php on line 35.
+ 1 APPPATH\Views\barang\form_barang.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default_jumlah', 'C:\\fp\\ke6\\app\\Views\\barang\\form_barang.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\barang\\form_barang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/form_barang', [], true)
+ 5 APPPATH\Controllers\Barang.php(131): view('barang/form_barang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 07:55:31 --> mysqli_sql_exception: Table 'sewa_ht.customer' doesn't exist in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\fp\ke6\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\app\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Customer->index()
+#7 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#8 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#11 {main}
+CRITICAL - 2023-12-26 07:55:31 --> Table 'sewa_ht.customer' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer`
+WHERE `kode_customer` LIKE :kode_customer: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 08:05:35 --> mysqli_sql_exception: Table 'sewa_ht.customer' doesn't exist in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\fp\ke6\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\app\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Customer->index()
+#7 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#8 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#11 {main}
+CRITICAL - 2023-12-26 08:05:35 --> Table 'sewa_ht.customer' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer`
+WHERE `kode_customer` LIKE :kode_customer: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 08:05:37 --> mysqli_sql_exception: Table 'sewa_ht.customer' doesn't exist in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\fp\ke6\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\app\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Customer->index()
+#7 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#8 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#11 {main}
+CRITICAL - 2023-12-26 08:05:37 --> Table 'sewa_ht.customer' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer`
+WHERE `kode_customer` LIKE :kode_customer: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Customer.php(26): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 08:12:00 --> Invalid file: "penyewa/data_penyewa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penyewa/data_penyewa.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('penyewa/data_penyewa', [], true)
+ 3 APPPATH\Controllers\Customer.php(32): view('penyewa/data_penyewa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 08:12:02 --> Invalid file: "penyewa/data_penyewa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penyewa/data_penyewa.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('penyewa/data_penyewa', [], true)
+ 3 APPPATH\Controllers\Customer.php(32): view('penyewa/data_penyewa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 08:22:31 --> Undefined property: stdClass::$telepon
+in APPPATH\Views\penyewa\data_penyewa.php on line 36.
+ 1 APPPATH\Views\penyewa\data_penyewa.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$telepon', 'C:\\fp\\ke6\\app\\Views\\penyewa\\data_penyewa.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\penyewa\\data_penyewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('penyewa/data_penyewa', [], true)
+ 5 APPPATH\Controllers\Penyewa.php(32): view('penyewa/data_penyewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 08:28:25 --> mysqli_sql_exception: Table 'sewa_ht.sewa' doesn't exist in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\fp\ke6\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\app\Controllers\Sewa.php(109): CodeIgniter\Model->__call('get', Array)
+#6 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->sewa()
+#7 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#8 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#11 {main}
+CRITICAL - 2023-12-26 08:28:25 --> Table 'sewa_ht.sewa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sewa`', [], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Sewa.php(109): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->sewa()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 11:50:45 --> mysqli_sql_exception: Table 'sewa_ht.sewa' doesn't exist in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\fp\ke6\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\app\Controllers\Sewa.php(109): CodeIgniter\Model->__call('get', Array)
+#6 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->sewa()
+#7 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#8 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#11 {main}
+CRITICAL - 2023-12-26 11:50:45 --> Table 'sewa_ht.sewa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sewa`', [], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Sewa.php(109): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->sewa()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 12:42:05 --> mysqli_sql_exception: Unknown column 'sewa.id_penyewa' in 'on clause' in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\fp\ke6\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\app\Controllers\Sewa.php(33): CodeIgniter\Model->__call('get', Array)
+#6 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->form()
+#7 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#8 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#11 {main}
+CRITICAL - 2023-12-26 12:42:05 --> Unknown column 'sewa.id_penyewa' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sewa`
+LEFT JOIN `penyewa` ON `penyewa`.`id_penyewa` = `sewa`.`id_penyewa`', [], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Sewa.php(33): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 12:42:41 --> Undefined variable $default_id
+in APPPATH\Views\sewa\form_sewa.php on line 13.
+ 1 APPPATH\Views\sewa\form_sewa.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default_id', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(55): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 12:43:32 --> Undefined variable $default_id
+in APPPATH\Views\sewa\form_sewa.php on line 13.
+ 1 APPPATH\Views\sewa\form_sewa.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default_id', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(55): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 13:32:09 --> Undefined array key "id_sewa"
+in APPPATH\Controllers\Sewa.php on line 66.
+ 1 APPPATH\Controllers\Sewa.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_sewa"', 'C:\\fp\\ke6\\app\\Controllers\\Sewa.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 13:33:25 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sewa_ht`.`sewa`, CONSTRAINT `sewa_ibfk_1` FOREIGN KEY (`nama_penyewa`) REFERENCES `penyewa` (`nama_penyewa`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\fp\ke6\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\fp\ke6\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\fp\ke6\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\fp\ke6\app\Controllers\Sewa.php(86): CodeIgniter\Model->insert(Array)
+#8 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+#9 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#10 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#13 {main}
+CRITICAL - 2023-12-26 13:33:25 --> Cannot add or update a child row: a foreign key constraint fails (`sewa_ht`.`sewa`, CONSTRAINT `sewa_ibfk_1` FOREIGN KEY (`nama_penyewa`) REFERENCES `penyewa` (`nama_penyewa`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sewa` (`nama_penyewa`, `nama_barang`, `tanggal_sewa`, `jatuh_tempo`) VALUES (:nama_penyewa:, :nama_barang:, :tanggal_sewa:, :jatuh_tempo:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Sewa.php(86): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+ERROR - 2023-12-26 13:37:15 --> mysqli_sql_exception: Column 'jumlah_barang' cannot be null in C:\fp\ke6\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\fp\ke6\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\fp\ke6\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\fp\ke6\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\fp\ke6\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\fp\ke6\app\Controllers\Sewa.php(86): CodeIgniter\Model->insert(Array)
+#8 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+#9 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+#10 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#13 {main}
+CRITICAL - 2023-12-26 13:37:15 --> Column 'jumlah_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sewa` (`nama_penyewa`, `nama_barang`, `jumlah_barang`, `tanggal_sewa`, `jatuh_tempo`) VALUES (:nama_penyewa:, :nama_barang:, :jumlah_barang:, :tanggal_sewa:, :jatuh_tempo:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Sewa.php(86): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 13:40:44 --> Undefined array key "kode_sewa"
+in APPPATH\Controllers\Sewa.php on line 130.
+ 1 APPPATH\Controllers\Sewa.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sewa"', 'C:\\fp\\ke6\\app\\Controllers\\Sewa.php', 130)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 13:41:10 --> Undefined variable $data_sewa
+in APPPATH\Views\sewa\form_sewa.php on line 18.
+ 1 APPPATH\Views\sewa\form_sewa.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_sewa', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(149): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 13:42:45 --> Undefined variable $ids
+in APPPATH\Controllers\Sewa.php on line 146.
+ 1 APPPATH\Controllers\Sewa.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ids', 'C:\\fp\\ke6\\app\\Controllers\\Sewa.php', 146)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 13:42:57 --> Undefined variable $data_sewa
+in APPPATH\Views\sewa\form_sewa.php on line 18.
+ 1 APPPATH\Views\sewa\form_sewa.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_sewa', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(150): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 13:42:58 --> Undefined variable $data_sewa
+in APPPATH\Views\sewa\form_sewa.php on line 18.
+ 1 APPPATH\Views\sewa\form_sewa.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_sewa', 'C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\ke6\\app\\Views\\sewa\\form_sewa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('sewa/form_sewa', [], true)
+ 5 APPPATH\Controllers\Sewa.php(150): view('sewa/form_sewa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 13:45:40 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Sewa.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 13:47:31 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Sewa.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 13:47:32 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Sewa.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 13:47:32 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Sewa.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 13:47:32 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Sewa.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 13:47:33 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Sewa.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2023-12-26 13:47:36 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Sewa.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')

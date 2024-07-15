@@ -1,0 +1,54 @@
+ERROR - 2024-01-05 03:33:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\fp\ke6\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\fp\ke6\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'sewa_ht', 3306, '', 0)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\fp\ke6\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\fp\ke6\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\fp\ke6\app\Controllers\Barang.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Barang->index()
+#7 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\fp\ke6\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\fp\ke6\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\fp\ke6\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\fp\ke6\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\fp\ke6\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\fp\ke6\app\Controllers\Barang.php(26): CodeIgniter\Model->__call('get', Array)
+#5 C:\fp\ke6\system\CodeIgniter.php(942): App\Controllers\Barang->index()
+#6 C:\fp\ke6\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\fp\ke6\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\fp\ke6\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\fp\ke6\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\publi...')
+#10 {main}
+CRITICAL - 2024-01-05 03:33:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `barang`
+WHERE `kode_barang` LIKE :kode_barang: ESCAPE \'!\'', [...], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Barang.php(26): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')
+CRITICAL - 2024-01-05 03:34:20 --> The placeholder field cannot use placeholder: id_sewa
+in SYSTEMPATH\Validation\Validation.php on line 777.
+ 1 SYSTEMPATH\Validation\Validation.php(156): CodeIgniter\Validation\Validation->fillPlaceholders([...], [...])
+ 2 SYSTEMPATH\BaseModel.php(1495): CodeIgniter\Validation\Validation->run([...], null, null)
+ 3 SYSTEMPATH\BaseModel.php(751): CodeIgniter\BaseModel->validate([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Sewa.php(93): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Sewa->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sewa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\ke6\\public\\index.php')

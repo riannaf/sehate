@@ -1,0 +1,1436 @@
+CRITICAL - 2023-12-19 02:34:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Transaksi.php on line 140.
+ 1 APPPATH\Controllers\Transaksi.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\adhani_coba\\app\\Controllers\\Transaksi.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 02:42:12 --> Undefined array key "alamat"
+in APPPATH\Controllers\Barang.php on line 120.
+ 1 APPPATH\Controllers\Barang.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 02:42:25 --> Undefined array key "jumlah"
+in APPPATH\Controllers\Barang.php on line 121.
+ 1 APPPATH\Controllers\Barang.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 02:55:55 --> Undefined variable $data_transaksi
+in APPPATH\Views\transaksi\tambah.php on line 15.
+ 1 APPPATH\Views\transaksi\tambah.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_transaksi', 'D:\\adhani_coba\\app\\Views\\transaksi\\tambah.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\transaksi\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/tambah', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(161): view('transaksi/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 02:56:01 --> Undefined variable $data_transaksi
+in APPPATH\Views\transaksi\tambah.php on line 15.
+ 1 APPPATH\Views\transaksi\tambah.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_transaksi', 'D:\\adhani_coba\\app\\Views\\transaksi\\tambah.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\transaksi\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/tambah', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(161): view('transaksi/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 02:58:03 --> Undefined variable $data_transaksi
+in APPPATH\Views\transaksi\tambah.php on line 15.
+ 1 APPPATH\Views\transaksi\tambah.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_transaksi', 'D:\\adhani_coba\\app\\Views\\transaksi\\tambah.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\transaksi\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('transaksi/tambah', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(161): view('transaksi/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 02:59:31 --> Undefined variable $barang
+in APPPATH\Views\barang\form.php on line 13.
+ 1 APPPATH\Views\barang\form.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'D:\\adhani_coba\\app\\Views\\barang\\form.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/form', [], true)
+ 5 APPPATH\Controllers\Barang.php(131): view('barang/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:00:41 --> Undefined variable $barang
+in APPPATH\Views\barang\form.php on line 13.
+ 1 APPPATH\Views\barang\form.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'D:\\adhani_coba\\app\\Views\\barang\\form.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/form', [], true)
+ 5 APPPATH\Controllers\Barang.php(131): view('barang/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:01:50 --> Undefined variable $nama_barang
+in APPPATH\Views\barang\form.php on line 20.
+ 1 APPPATH\Views\barang\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_barang', 'D:\\adhani_coba\\app\\Views\\barang\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/form', [], true)
+ 5 APPPATH\Controllers\Barang.php(131): view('barang/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:11:37 --> Undefined variable $data
+in APPPATH\Views\barang\data_alat.php on line 50.
+ 1 APPPATH\Views\barang\data_alat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(130): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:12:35 --> Undefined variable $data_alat
+in APPPATH\Views\barang\data_alat.php on line 50.
+ 1 APPPATH\Views\barang\data_alat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_alat', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(130): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:12:36 --> Undefined variable $data_alat
+in APPPATH\Views\barang\data_alat.php on line 50.
+ 1 APPPATH\Views\barang\data_alat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_alat', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(130): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:14:02 --> Undefined variable $data
+in APPPATH\Views\barang\data_alat.php on line 50.
+ 1 APPPATH\Views\barang\data_alat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(130): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:14:02 --> Undefined variable $data
+in APPPATH\Views\barang\data_alat.php on line 50.
+ 1 APPPATH\Views\barang\data_alat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(130): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:14:03 --> Undefined variable $data
+in APPPATH\Views\barang\data_alat.php on line 50.
+ 1 APPPATH\Views\barang\data_alat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(130): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:14:03 --> Undefined variable $data
+in APPPATH\Views\barang\data_alat.php on line 50.
+ 1 APPPATH\Views\barang\data_alat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(130): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:15:10 --> Undefined variable $arr_barang
+in APPPATH\Controllers\Barang.php on line 128.
+ 1 APPPATH\Controllers\Barang.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arr_barang', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:15:11 --> Undefined variable $arr_barang
+in APPPATH\Controllers\Barang.php on line 128.
+ 1 APPPATH\Controllers\Barang.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arr_barang', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:16:10 --> Attempt to read property "id_barang" on string
+in APPPATH\Views\barang\data_alat.php on line 52.
+ 1 APPPATH\Views\barang\data_alat.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_barang" on string', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 52)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(131): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:16:11 --> Attempt to read property "id_barang" on string
+in APPPATH\Views\barang\data_alat.php on line 52.
+ 1 APPPATH\Views\barang\data_alat.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_barang" on string', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 52)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(131): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:17:34 --> Undefined variable $data
+in APPPATH\Views\barang\data_alat.php on line 50.
+ 1 APPPATH\Views\barang\data_alat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(131): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:17:35 --> Undefined variable $data
+in APPPATH\Views\barang\data_alat.php on line 50.
+ 1 APPPATH\Views\barang\data_alat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(131): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:18:17 --> Undefined variable $data
+in APPPATH\Views\barang\data_alat.php on line 50.
+ 1 APPPATH\Views\barang\data_alat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(131): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:18:18 --> Undefined variable $data
+in APPPATH\Views\barang\data_alat.php on line 50.
+ 1 APPPATH\Views\barang\data_alat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(131): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 03:18:18 --> Undefined variable $data
+in APPPATH\Views\barang\data_alat.php on line 50.
+ 1 APPPATH\Views\barang\data_alat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(131): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:46:54 --> Undefined variable $default_jumlah_barang
+in APPPATH\Controllers\Barang.php on line 127.
+ 1 APPPATH\Controllers\Barang.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default_jumlah_barang', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:50:38 --> Undefined property: stdClass::$jumlah
+in APPPATH\Views\barang\data_alat.php on line 55.
+ 1 APPPATH\Views\barang\data_alat.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jumlah', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(107): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->data_alat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:51:58 --> Undefined property: stdClass::$jumlah
+in APPPATH\Views\barang\data_alat.php on line 55.
+ 1 APPPATH\Views\barang\data_alat.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jumlah', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(107): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->data_alat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:51:59 --> Undefined property: stdClass::$jumlah
+in APPPATH\Views\barang\data_alat.php on line 55.
+ 1 APPPATH\Views\barang\data_alat.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jumlah', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(107): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->data_alat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:51:59 --> Undefined property: stdClass::$jumlah
+in APPPATH\Views\barang\data_alat.php on line 55.
+ 1 APPPATH\Views\barang\data_alat.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jumlah', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(107): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->data_alat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:52:32 --> Undefined array key "jumlah"
+in APPPATH\Controllers\Barang.php on line 121.
+ 1 APPPATH\Controllers\Barang.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:52:46 --> Undefined array key "jumlah"
+in APPPATH\Controllers\Barang.php on line 121.
+ 1 APPPATH\Controllers\Barang.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:52:48 --> Undefined array key "jumlah"
+in APPPATH\Controllers\Barang.php on line 121.
+ 1 APPPATH\Controllers\Barang.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:52:48 --> Undefined array key "jumlah"
+in APPPATH\Controllers\Barang.php on line 121.
+ 1 APPPATH\Controllers\Barang.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:52:48 --> Undefined array key "jumlah"
+in APPPATH\Controllers\Barang.php on line 121.
+ 1 APPPATH\Controllers\Barang.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:52:48 --> Undefined array key "jumlah"
+in APPPATH\Controllers\Barang.php on line 121.
+ 1 APPPATH\Controllers\Barang.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:52:48 --> Undefined array key "jumlah"
+in APPPATH\Controllers\Barang.php on line 121.
+ 1 APPPATH\Controllers\Barang.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:52:49 --> Undefined array key "jumlah"
+in APPPATH\Controllers\Barang.php on line 121.
+ 1 APPPATH\Controllers\Barang.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:52:49 --> Undefined array key "jumlah"
+in APPPATH\Controllers\Barang.php on line 121.
+ 1 APPPATH\Controllers\Barang.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:52:49 --> Undefined array key "jumlah"
+in APPPATH\Controllers\Barang.php on line 121.
+ 1 APPPATH\Controllers\Barang.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 04:53:00 --> Undefined array key "jumlah"
+in APPPATH\Controllers\Barang.php on line 121.
+ 1 APPPATH\Controllers\Barang.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 05:57:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Transaksi.php on line 140.
+ 1 APPPATH\Controllers\Transaksi.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\adhani_coba\\app\\Controllers\\Transaksi.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 05:59:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Transaksi.php on line 140.
+ 1 APPPATH\Controllers\Transaksi.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\adhani_coba\\app\\Controllers\\Transaksi.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 06:00:29 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2766.
+ 1 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete('', false)
+ 3 APPPATH\Controllers\Transaksi.php(168): CodeIgniter\BaseModel->delete('')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Transaksi->hapus()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 06:06:40 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\adhani_coba\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'persewaan_sehat...', 3306, '', 0)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#6 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#7 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#8 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#5 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#6 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#7 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#10 {main}
+CRITICAL - 2023-12-19 06:06:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penyewa`', [], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 06:07:01 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\adhani_coba\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'persewaan_sehat...', 3306, '', 0)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#6 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#7 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#8 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#5 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#6 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#7 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#10 {main}
+CRITICAL - 2023-12-19 06:07:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penyewa`', [], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 06:07:17 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\adhani_coba\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'persewaan_sehat...', 3306, '', 0)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\adhani_coba\app\Controllers\Barang.php(96): CodeIgniter\Model->__call('get', Array)
+#6 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Barang->data_alat()
+#7 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\adhani_coba\app\Controllers\Barang.php(96): CodeIgniter\Model->__call('get', Array)
+#5 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Barang->data_alat()
+#6 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#10 {main}
+CRITICAL - 2023-12-19 06:07:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `barang`', [], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Barang.php(96): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->data_alat()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 06:07:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\adhani_coba\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'persewaan_sehat...', 3306, '', 0)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#6 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#7 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#8 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#5 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#6 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#7 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#10 {main}
+CRITICAL - 2023-12-19 06:07:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penyewa`', [], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 06:07:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\adhani_coba\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'persewaan_sehat...', 3306, '', 0)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#6 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#7 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#8 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#5 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#6 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#7 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#10 {main}
+CRITICAL - 2023-12-19 06:07:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penyewa`', [], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 06:07:47 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\adhani_coba\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'persewaan_sehat...', 3306, '', 0)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#6 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#7 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#8 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#5 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#6 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#7 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#10 {main}
+CRITICAL - 2023-12-19 06:07:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penyewa`', [], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 06:07:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\adhani_coba\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'persewaan_sehat...', 3306, '', 0)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#6 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#7 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#8 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#5 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#6 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#7 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#10 {main}
+CRITICAL - 2023-12-19 06:07:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penyewa`', [], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 06:07:56 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\adhani_coba\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'persewaan_sehat...', 3306, '', 0)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#6 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#7 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#8 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#5 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#6 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#7 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#10 {main}
+CRITICAL - 2023-12-19 06:07:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penyewa`', [], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 06:08:00 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\adhani_coba\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'persewaan_sehat...', 3306, '', 0)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#6 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#7 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#8 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#5 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#6 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#7 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#10 {main}
+CRITICAL - 2023-12-19 06:08:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penyewa`', [], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 06:08:04 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\adhani_coba\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'persewaan_sehat...', 3306, '', 0)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#6 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#7 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#8 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#5 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#6 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#7 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#10 {main}
+CRITICAL - 2023-12-19 06:08:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penyewa`', [], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 06:08:09 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\adhani_coba\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'persewaan_sehat...', 3306, '', 0)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#6 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#7 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#8 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#5 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#6 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#7 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#10 {main}
+CRITICAL - 2023-12-19 06:08:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penyewa`', [], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 06:09:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\adhani_coba\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'persewaan_sehat...', 3306, '', 0)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\adhani_coba\app\Controllers\Barang.php(96): CodeIgniter\Model->__call('get', Array)
+#6 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Barang->data_alat()
+#7 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\adhani_coba\app\Controllers\Barang.php(96): CodeIgniter\Model->__call('get', Array)
+#5 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Barang->data_alat()
+#6 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#10 {main}
+CRITICAL - 2023-12-19 06:09:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `barang`', [], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Barang.php(96): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->data_alat()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 06:11:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\adhani_coba\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'persewaan_sehat...', 3306, '', 0)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#6 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#7 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#8 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\adhani_coba\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\adhani_coba\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\adhani_coba\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\adhani_coba\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\adhani_coba\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\adhani_coba\app\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', Array)
+#5 D:\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+#6 D:\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+#7 D:\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\...')
+#10 {main}
+CRITICAL - 2023-12-19 06:11:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penyewa`', [], false)
+ 3 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Penyewa.php(96): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->data_penyewa()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 06:13:00 --> Undefined array key "id_penyewa"
+in APPPATH\Controllers\Penyewa.php on line 58.
+ 1 APPPATH\Controllers\Penyewa.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_penyewa"', 'D:\\adhani_coba\\app\\Controllers\\Penyewa.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 06:13:39 --> Undefined array key "id_penyewa_pk"
+in APPPATH\Controllers\Penyewa.php on line 58.
+ 1 APPPATH\Controllers\Penyewa.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_penyewa_pk"', 'D:\\adhani_coba\\app\\Controllers\\Penyewa.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 06:13:50 --> Undefined variable $id_penyewa_input
+in APPPATH\Controllers\Penyewa.php on line 62.
+ 1 APPPATH\Controllers\Penyewa.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_penyewa_input', 'D:\\adhani_coba\\app\\Controllers\\Penyewa.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 06:13:59 --> Undefined array key "id_penyewa"
+in APPPATH\Controllers\Penyewa.php on line 58.
+ 1 APPPATH\Controllers\Penyewa.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_penyewa"', 'D:\\adhani_coba\\app\\Controllers\\Penyewa.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 06:14:57 --> Undefined array key "id_penyewa"
+in APPPATH\Controllers\Penyewa.php on line 58.
+ 1 APPPATH\Controllers\Penyewa.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_penyewa"', 'D:\\adhani_coba\\app\\Controllers\\Penyewa.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 06:14:58 --> Undefined array key "id_penyewa"
+in APPPATH\Controllers\Penyewa.php on line 58.
+ 1 APPPATH\Controllers\Penyewa.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_penyewa"', 'D:\\adhani_coba\\app\\Controllers\\Penyewa.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 06:15:08 --> Undefined array key "id_penyewa"
+in APPPATH\Controllers\Penyewa.php on line 58.
+ 1 APPPATH\Controllers\Penyewa.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_penyewa"', 'D:\\adhani_coba\\app\\Controllers\\Penyewa.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 06:15:09 --> Undefined array key "id_penyewa"
+in APPPATH\Controllers\Penyewa.php on line 58.
+ 1 APPPATH\Controllers\Penyewa.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_penyewa"', 'D:\\adhani_coba\\app\\Controllers\\Penyewa.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 06:15:16 --> Undefined array key "id_penyewa"
+in APPPATH\Controllers\Penyewa.php on line 58.
+ 1 APPPATH\Controllers\Penyewa.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_penyewa"', 'D:\\adhani_coba\\app\\Controllers\\Penyewa.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 06:15:17 --> Undefined array key "id_penyewa"
+in APPPATH\Controllers\Penyewa.php on line 58.
+ 1 APPPATH\Controllers\Penyewa.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_penyewa"', 'D:\\adhani_coba\\app\\Controllers\\Penyewa.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 06:15:33 --> Undefined array key "id_penyewa"
+in APPPATH\Controllers\Penyewa.php on line 58.
+ 1 APPPATH\Controllers\Penyewa.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_penyewa"', 'D:\\adhani_coba\\app\\Controllers\\Penyewa.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penyewa->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyewa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 06:59:42 --> Undefined variable $barang
+in APPPATH\Views\barang\form.php on line 27.
+ 1 APPPATH\Views\barang\form.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'D:\\adhani_coba\\app\\Views\\barang\\form.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/form', [], true)
+ 5 APPPATH\Controllers\Barang.php(47): view('barang/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 07:00:30 --> Undefined variable $spesifikasi
+in APPPATH\Views\barang\form.php on line 27.
+ 1 APPPATH\Views\barang\form.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spesifikasi', 'D:\\adhani_coba\\app\\Views\\barang\\form.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/form', [], true)
+ 5 APPPATH\Controllers\Barang.php(131): view('barang/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 07:01:30 --> Undefined variable $default_id_barang
+in APPPATH\Views\barang\form.php on line 13.
+ 1 APPPATH\Views\barang\form.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default_id_barang', 'D:\\adhani_coba\\app\\Views\\barang\\form.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/form', [], true)
+ 5 APPPATH\Controllers\Barang.php(131): view('barang/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 07:20:38 --> Undefined array key "id_barang"
+in APPPATH\Controllers\Barang.php on line 79.
+ 1 APPPATH\Controllers\Barang.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_barang"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 07:21:56 --> Undefined array key "id_barang"
+in APPPATH\Controllers\Barang.php on line 80.
+ 1 APPPATH\Controllers\Barang.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_barang"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 07:22:13 --> Undefined array key "id_barang"
+in APPPATH\Controllers\Barang.php on line 80.
+ 1 APPPATH\Controllers\Barang.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_barang"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 07:23:29 --> syntax error, unexpected token "!"
+in APPPATH\Controllers\Barang.php on line 78.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('barang/proses_input', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('barang/proses_input')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('barang/proses_input')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 07:23:45 --> Undefined array key "id_barang"
+in APPPATH\Controllers\Barang.php on line 55.
+ 1 APPPATH\Controllers\Barang.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_barang"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 07:24:59 --> Undefined array key "id"
+in APPPATH\Controllers\Barang.php on line 55.
+ 1 APPPATH\Controllers\Barang.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 07:27:58 --> Undefined array key "default_id"
+in APPPATH\Controllers\Barang.php on line 55.
+ 1 APPPATH\Controllers\Barang.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "default_id"', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 07:28:13 --> Undefined array key ""
+in APPPATH\Controllers\Barang.php on line 55.
+ 1 APPPATH\Controllers\Barang.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 07:28:23 --> Undefined variable $id_barang_input
+in APPPATH\Controllers\Barang.php on line 59.
+ 1 APPPATH\Controllers\Barang.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_barang_input', 'D:\\adhani_coba\\app\\Controllers\\Barang.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 12:19:06 --> Undefined property: stdClass::$jumlah
+in APPPATH\Views\barang\data_alat.php on line 55.
+ 1 APPPATH\Views\barang\data_alat.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jumlah', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(97): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->data_alat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 12:19:11 --> Undefined property: stdClass::$jumlah
+in APPPATH\Views\barang\data_alat.php on line 55.
+ 1 APPPATH\Views\barang\data_alat.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jumlah', 'D:\\adhani_coba\\app\\Views\\barang\\data_alat.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(97): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->data_alat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 15:50:52 --> Undefined property: stdClass::$jumlah
+in APPPATH\Views\barang\data_alat.php on line 55.
+ 1 APPPATH\Views\barang\data_alat.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jumlah', 'C:\\fp\\adhani_coba\\app\\Views\\barang\\data_alat.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(97): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->data_alat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 15:52:40 --> Undefined property: stdClass::$jumlah
+in APPPATH\Views\barang\data_alat.php on line 55.
+ 1 APPPATH\Views\barang\data_alat.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jumlah', 'C:\\fp\\adhani_coba\\app\\Views\\barang\\data_alat.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\fp\\adhani_coba\\app\\Views\\barang\\data_alat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('barang/data_alat', [], true)
+ 5 APPPATH\Controllers\Barang.php(97): view('barang/data_alat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->data_alat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 15:53:30 --> mysqli_sql_exception: Unknown column 'jumlah' in 'field list' in C:\fp\adhani_coba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\adhani_coba\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\fp\adhani_coba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\fp\adhani_coba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\fp\adhani_coba\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\fp\adhani_coba\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\fp\adhani_coba\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\fp\adhani_coba\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\fp\adhani_coba\app\Controllers\Barang.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\fp\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+#9 C:\fp\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 C:\fp\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\fp\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\fp\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_co...')
+#13 {main}
+CRITICAL - 2023-12-19 15:53:30 --> Unknown column 'jumlah' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_barang`, `nama_barang`, `spesifikasi`, `jumlah`) VALUES (:id_barang:, :nama_barang:, :spesifikasi:, :jumlah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Barang.php(73): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 15:53:37 --> mysqli_sql_exception: Unknown column 'jumlah' in 'field list' in C:\fp\adhani_coba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\adhani_coba\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\fp\adhani_coba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\fp\adhani_coba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\fp\adhani_coba\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\fp\adhani_coba\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\fp\adhani_coba\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\fp\adhani_coba\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\fp\adhani_coba\app\Controllers\Barang.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\fp\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+#9 C:\fp\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 C:\fp\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\fp\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\fp\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_co...')
+#13 {main}
+CRITICAL - 2023-12-19 15:53:37 --> Unknown column 'jumlah' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_barang`, `nama_barang`, `spesifikasi`, `jumlah`) VALUES (:id_barang:, :nama_barang:, :spesifikasi:, :jumlah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Barang.php(73): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 15:54:35 --> mysqli_sql_exception: Unknown column 'jumlah' in 'field list' in C:\fp\adhani_coba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\adhani_coba\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\fp\adhani_coba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\fp\adhani_coba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\fp\adhani_coba\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\fp\adhani_coba\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\fp\adhani_coba\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\fp\adhani_coba\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\fp\adhani_coba\app\Controllers\Barang.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\fp\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+#9 C:\fp\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 C:\fp\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\fp\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\fp\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_co...')
+#13 {main}
+CRITICAL - 2023-12-19 15:54:35 --> Unknown column 'jumlah' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_barang`, `nama_barang`, `spesifikasi`, `jumlah`) VALUES (:id_barang:, :nama_barang:, :spesifikasi:, :jumlah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Barang.php(73): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 15:54:52 --> mysqli_sql_exception: Unknown column 'jumlah' in 'field list' in C:\fp\adhani_coba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\adhani_coba\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\fp\adhani_coba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\fp\adhani_coba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\fp\adhani_coba\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\fp\adhani_coba\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\fp\adhani_coba\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\fp\adhani_coba\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\fp\adhani_coba\app\Controllers\Barang.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\fp\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+#9 C:\fp\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 C:\fp\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\fp\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\fp\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_co...')
+#13 {main}
+CRITICAL - 2023-12-19 15:54:52 --> Unknown column 'jumlah' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_barang`, `nama_barang`, `spesifikasi`, `jumlah`) VALUES (:id_barang:, :nama_barang:, :spesifikasi:, :jumlah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Barang.php(73): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 15:55:26 --> mysqli_sql_exception: Unknown column 'jumlah' in 'field list' in C:\fp\adhani_coba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\adhani_coba\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\fp\adhani_coba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\fp\adhani_coba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\fp\adhani_coba\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\fp\adhani_coba\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\fp\adhani_coba\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\fp\adhani_coba\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\fp\adhani_coba\app\Controllers\Barang.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\fp\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+#9 C:\fp\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 C:\fp\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\fp\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\fp\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_co...')
+#13 {main}
+CRITICAL - 2023-12-19 15:55:26 --> Unknown column 'jumlah' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_barang`, `nama_barang`, `spesifikasi`, `jumlah`) VALUES (:id_barang:, :nama_barang:, :spesifikasi:, :jumlah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Barang.php(73): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_coba\\public\\index.php')
+ERROR - 2023-12-19 15:55:28 --> mysqli_sql_exception: Unknown column 'jumlah' in 'field list' in C:\fp\adhani_coba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\fp\adhani_coba\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\fp\adhani_coba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\fp\adhani_coba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\fp\adhani_coba\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\fp\adhani_coba\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\fp\adhani_coba\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\fp\adhani_coba\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\fp\adhani_coba\app\Controllers\Barang.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\fp\adhani_coba\system\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+#9 C:\fp\adhani_coba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 C:\fp\adhani_coba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\fp\adhani_coba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\fp\adhani_coba\system\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_co...')
+#13 {main}
+CRITICAL - 2023-12-19 15:55:28 --> Unknown column 'jumlah' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_barang`, `nama_barang`, `spesifikasi`, `jumlah`) VALUES (:id_barang:, :nama_barang:, :spesifikasi:, :jumlah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Barang.php(73): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 15:55:48 --> Undefined array key "id_barang"
+in APPPATH\Controllers\Barang.php on line 80.
+ 1 APPPATH\Controllers\Barang.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_barang"', 'C:\\fp\\adhani_coba\\app\\Controllers\\Barang.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 15:57:29 --> Undefined array key "id_barang"
+in APPPATH\Controllers\Barang.php on line 80.
+ 1 APPPATH\Controllers\Barang.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_barang"', 'C:\\fp\\adhani_coba\\app\\Controllers\\Barang.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 16:00:15 --> Undefined array key "jumlah"
+in APPPATH\Controllers\Barang.php on line 111.
+ 1 APPPATH\Controllers\Barang.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'C:\\fp\\adhani_coba\\app\\Controllers\\Barang.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 16:24:14 --> CodeIgniter\BaseModel::replace(): Argument #1 ($data) must be of type ?array, string given, called in C:\fp\adhani_coba\app\Controllers\Barang.php on line 76
+in SYSTEMPATH\BaseModel.php on line 1144.
+ 1 APPPATH\Controllers\Barang.php(76): CodeIgniter\BaseModel->replace('B009', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_coba\\public\\index.php')
+CRITICAL - 2023-12-19 16:29:10 --> CodeIgniter\BaseModel::replace(): Argument #1 ($data) must be of type ?array, string given, called in C:\fp\adhani_coba\app\Controllers\Barang.php on line 76
+in SYSTEMPATH\BaseModel.php on line 1144.
+ 1 APPPATH\Controllers\Barang.php(76): CodeIgniter\BaseModel->replace('barang', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\fp\\adhani_coba\\public\\index.php')
